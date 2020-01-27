@@ -3,7 +3,7 @@ from sklearn.datasets import load_iris
 from sklearn import model_selection, linear_model, metrics
 import numpy as np
 import pickle
-from pprint import pprint
+# from pprint import pprint
 
 def build_model():
 
@@ -40,9 +40,5 @@ def build_model():
 	with open("classifier.pkl", 'wb') as file:
 		pickle.dump(classifier_model, file)
 
-	print(classifier_model.predict(np.reshape([0,0,0,0],(1,4))))
 
-
-	print(features)
-build_model()
 
