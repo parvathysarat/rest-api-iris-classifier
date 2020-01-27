@@ -1,5 +1,4 @@
 import os
-from os import environ
 import numpy as np
 from flask import Flask, request, jsonify
 from flask_restful import Api, Resource
