@@ -23,7 +23,7 @@ Use the following json format for Postman :
 ```
 
 For command line : <code> curl -X POST -H "Content-type: application/json" http://127.0.0.1:5000/predict -d "{\"data\": {\"sepal length\":3, \"sepal width\":1.2, \"petal length\":2.0, \"petal width\" : 1.5}}" </code> 
-(If using Windows, escape all inner quotes by using /)
+(If using Windows, escape all inner quotes in the json by using /)
 
 ### Questions
 1. This dataset was obviously quite small, in the product you will be working with much
